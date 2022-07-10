@@ -1,0 +1,20 @@
+{
+  "name": "angular_example_site",
+  "version": "1.0.0",
+  "description": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)\r ![License](https://img.shields.io/badge/Made%20with-Vue-darkblue.svg)\r [![Github Commits](https://img.shields.io/github/commit-activity/w/HobbaZ/angular_example_site)](https://github.com/HobbaZ/angular_example_site/commits)\r [![GitHub latest commit](https://img.shields.io/github/last-commit/HobbaZ/angular_example_site)](https://github.com/HobbaZ/angular_example_site/branches)\r [![GitHub followers](https://img.shields.io/github/followers/HobbaZ.svg)]()\r ![GitHub repo size](https://img.shields.io/github/repo-size/HobbaZ/angular_example_site)\r [![GitHub issues](https://img.shields.io/github/issues/HobbaZ/angular_example_site)](https://img.shields.io/github/issues/HobbaZ/angular_example_site)\r ![GitHub forks](https://img.shields.io/github/forks/HobbaZ/angular_example_site)\r ![GitHub language count](https://img.shields.io/github/languages/count/HobbaZ/angular_example_site)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HobbaZ/angular_example_site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HobbaZ/angular_example_site/issues"
+  },
+  "homepage": "https://github.com/HobbaZ/angular_example_site#readme"
+}
