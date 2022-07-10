@@ -69,6 +69,14 @@ You can also contribute by opening a pull request or submitting an issue
 
 [https://www.delftstack.com/howto/angular/create-a-navbar-in-angular/](https://www.delftstack.com/howto/angular/create-a-navbar-in-angular/)
 
+[https://stackoverflow.com/questions/51108604/angular-6-routerlinkactive-not-working](https://stackoverflow.com/questions/51108604/angular-6-routerlinkactive-not-working)
+
+[https://angular.io/api/router/RouterLinkActive](https://angular.io/api/router/RouterLinkActive)
+
+[https://angular.io/guide/reactive-forms](https://angular.io/guide/reactive-forms)
+
+[https://stackblitz.com/run?file=src%2Fapp%2Fprofile-editor%2Fprofile-editor.component.ts](https://stackblitz.com/run?file=src%2Fapp%2Fprofile-editor%2Fprofile-editor.component.ts)
+
 ## Testing
 No tests yet
 

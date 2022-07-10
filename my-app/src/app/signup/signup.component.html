@@ -1,3 +1,73 @@
 <div class="container" >
-    <h1> Signup </h1>
+    <div class="signup">
+
+    <h1 class="text-center">Signup</h1>
+      
+        <form [formGroup] ="form" (ngSubmit)="onSubmit">
+            <fieldset>
+            <label for="firstname">First Name</label>
+                <input id="firstname" type="text" placeholder="Your First Name" required minLength=2 
+    
+                class=" peer 
+                focus: outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                invalid:border-red-500 invalid:text-red-600
+                focus:invalid:border-red-500 focus:invalid:ring-red-500
+                "/>
+            <p class="invisible peer-invalid:visible text-red-600 italic text-center">" Required Field must be at least 2 characters"</p>
+    
+            <label for="lastname"> Last Name</label>
+                <input id="lastname" type="text" placeholder="Your Last Name" required minLength=2 
+    
+                class=" peer 
+                focus: outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                invalid:border-red-500 invalid:text-red-600
+                focus:invalid:border-red-500 focus:invalid:ring-red-500
+                "/>
+            <p class="invisible peer-invalid:visible text-red-600 italic text-center">" Required Field must be at least 2 characters"</p>
+    
+            <label for="username">Username</label>
+                <input id="username" type="text" placeholder="Create a username" required minLength=2 
+    
+                class=" peer 
+                focus: outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                invalid:border-red-500 invalid:text-red-600
+                focus:invalid:border-red-500 focus:invalid:ring-red-500
+                "/>
+            <p class="invisible peer-invalid:visible text-red-600 italic text-center">" Required Field must be at least 2 characters"</p>
+    
+            <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Your Email" required
+    
+                class=" peer 
+                focus: outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                invalid:border-red-500 invalid:text-red-600
+                focus:invalid:border-red-500 focus:invalid:ring-red-500
+                ">
+            <p class="invisible peer-invalid:visible text-red-600 italic text-center">Invalid Email Address</p>
+    
+            <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Create a password" required minLength=8
+    
+                class=" peer 
+                focus: outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                invalid:border-red-500 invalid:text-red-600
+                focus:invalid:border-red-500 focus:invalid:ring-red-500
+                ">
+            <p class="invisible peer-invalid:visible text-red-600 italic text-center">" Required Field must be at least 8 characters"</p>
+      
+            </fieldset>
+    
+            <div class="text-center">
+            <button type="submit" [disabled]="!form.valid" class= "disabled:bg-slate-500 disabled:text-white"> Signup </button>
+            </div>
+
+            <p>Form Value: {{ form.value | json }}</p>
+            <p>Form status: {{ form.status }}</p>
+    
+            <div class="text-center">
+            <button type="button"> Login Instead </button>
+            </div>
+            
+        </form>
+          </div>
 </div>
