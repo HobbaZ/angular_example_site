@@ -1,7 +1,7 @@
 # Angular Example Site
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
-![License](https://img.shields.io/badge/Made%20with-Vue-darkblue.svg)
+![License](https://img.shields.io/badge/Made%20with-Angular-darkblue.svg)
 [![Github Commits](https://img.shields.io/github/commit-activity/w/HobbaZ/angular_example_site)](https://github.com/HobbaZ/angular_example_site/commits)
 [![GitHub latest commit](https://img.shields.io/github/last-commit/HobbaZ/angular_example_site)](https://github.com/HobbaZ/angular_example_site/branches)
 [![GitHub followers](https://img.shields.io/github/followers/HobbaZ.svg)]()
@@ -21,7 +21,6 @@ Angular
 
 ## Deployment
 You can view the [website link](https://github.com/HobbaZ/angular_example_site) here. 
-
 
 ## Table of Contents
 - [Description](#description)
@@ -66,7 +65,9 @@ You can view the [website link](https://github.com/HobbaZ/angular_example_site) 
 You can also contribute by opening a pull request or submitting an issue
 
 ## Acknowledgements
+[https://angular.io/tutorial/toh-pt5](https://angular.io/tutorial/toh-pt5)
 
+[https://www.delftstack.com/howto/angular/create-a-navbar-in-angular/](https://www.delftstack.com/howto/angular/create-a-navbar-in-angular/)
 
 ## Testing
 No tests yet
